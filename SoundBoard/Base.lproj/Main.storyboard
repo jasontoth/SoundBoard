@@ -39,6 +39,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="cSN-kD-mah" id="8aK-el-kKz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,7 +100,9 @@
                         <viewLayoutGuide key="safeArea" id="pa9-0d-l0j"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="M7I-TN-seF" id="WAE-fc-Iwg"/>
                         <outlet property="nameTextField" destination="IMZ-c0-XH4" id="vzk-5r-0ah"/>
+                        <outlet property="playButton" destination="mYr-Od-QM1" id="FbS-cz-fSP"/>
                         <outlet property="recordButton" destination="QOG-cs-q0n" id="yuX-EX-rOo"/>
                     </connections>
                 </viewController>
